@@ -7,4 +7,26 @@
 
 /* utils */
 
+.flex{
+    display: flex;
+}
+
 /* generic */
+
+body{
+    background-color: black;
+}
+
+/* header */
+header .btn{
+    justify-content: flex-end;    
+}
+
+header button{
+    margin: 10px 5px;
+    padding: 3px 5px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 3px;
+}
