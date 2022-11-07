@@ -16,11 +16,16 @@
     padding-right: 8px;
 }
 
+.green{
+    color: rgb(0, 170, 0);
+}
+
 /* generic */
 
 body{
     background-color: black;
     color: white;
+    font-family: sans-serif;
 }
 
 button{
@@ -44,7 +49,7 @@ header button{
 /* main */
 
 main .container{
-    height: calc(100vh - 41.33px);
+    height: calc(100vh - 141.33px);
     max-width: 1600px;
     margin: 0 auto;
     justify-content: center;
@@ -98,4 +103,37 @@ main{
 
 .user-card:hover .btn{
     display: block;
+}
+
+/* footer */
+
+footer{
+    height: 100px;
+    background-color: rgb(37, 37, 37);
+    font-size: 13px;
+    line-height: 1.8rem;
+}
+
+footer .flex{
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.element{
+    text-align: center;
+    padding: 10px;
+}
+
+.tool-bar.left{
+    justify-content: flex-start;
+}
+
+.tool-bar.middle{
+    justify-content: center;
+    flex-grow: 2;
+}
+
+.tool-bar.right{
+    justify-content: flex-end;
 }
