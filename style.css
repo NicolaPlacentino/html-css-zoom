@@ -41,7 +41,7 @@ button, .element{
 
 /* header */
 header .btn{
-    justify-content: flex-end;    
+    justify-content: flex-end;
 }
 
 header button{
@@ -56,7 +56,7 @@ main .container{
     max-width: 1600px;
     margin: 0 auto;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 main{
